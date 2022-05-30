@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автошкола "Frogwheels"</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+   <header>
+       <div class="header-top">
+                    <div class="logo">
+                        <span class="logo-image"></span>
+                            <div class="text-logo">
+                                <div class="logo-name">frogwheels</div>
+                                <div class="tagline">Лучшее обучение вождению - у нас</div>
+                            </div>
+                    </div>
+        </div>
+        <div class="header-middle">
+                    <ul class="menu">
+                        <li><a href="./avtoshkola_frogwheels.html">Автошкола</a></li>
+                        <li><a href="./svedeniya.html">Сведения</a></li>
+                        <li><a href="./kollektiv.html">Коллектив</a></li>
+                        <li><a href="./trenazhery.html">Тренажеры</a></li>
+                        <li><a href="./avtomobili.html">Автомобили</a></li>
+                        <li><a href="./ploshchadka.html">Площадка</a></li>
+                        <li><a href="javascript:void(0)" onclick="showHide('menu-b','pic')"><span>Остальное</span><img src="img/arrow.svg" id="pic" class="image-arrow"></span></a>
+                        </li>
+                        <div id="menu-b" class="menu-bottom">
+                            <div class="block-extra-menu"><a class="part-ebm" href="./svedeniya_ob_obrazovatelnoy_organizatsii.html">Сведения об образов. организации</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="/ustroystvo_avtomobilya.html"><span class="underlined_information">Устройство автомобиля</span></a>
+                            <a class="two-part-ebm" href="./dokumenty.html">Документы</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./otvetstvennost_voditelya.html">Ответственность водителя</a>
+                            <a class="two-part-ebm" href="./klassy.html">Классы</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./prava_na_kvadrotsikl.html">“Права“ на квадроцикл</a>
+                            <a class="two-part-ebm" href="./stoimost.html">Стоимость</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./distantsionnoye_obucheniye.html">Дистанционное обучение</a>
+                            <a class="two-part-ebm" href="./otzyvy.html">Отзывы</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./pervaya_pomoshch_pri_dtp.html">Первая помощь при ДТП</a>
+                            <a class="two-part-ebm" href="./pdd.html">ПДД</a></div>
+                        </div>
+                        <div class="menu-registration-authorization"><a href="#openModalReg" class="ModalReg">Вход | Регистрация</a></div>
+                            <div id="openModalReg" class="modalDialogReg">
+                                <div id="" class="modalDialogRegExt">
+                                <form action="action_page.php">
+                                    <div class="container">
+                                    <div class="registration-menu">
+                                    <b class="input_text_h">Регистрация</b>
+                                    <b class="input_text_space">Заполните эту форму для регистрации.</b>
+                                    <b class="input_text">Электронная почта</b>
+                                    <input type="text" class="input-user" placeholder="Введите электронную почту" name="email" required>
+                                    <b class="input_text">Пароль</b>
+                                    <input type="password" class="input-user" placeholder="Введите пароль" name="psw" required>
+                                    <b class="input_text">Пароль ещё раз</b>
+                                    <input type="password" class="input-user" placeholder="Ещё раз введите пароль" name="psw-repeat" required>
+                                    <b class="input_text_space">При нажатии на кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a>.</b>
+                                    <button type="submit" class="registerbtn">Зарегистрироваться</button>
+                                    </div>
+                                    </div>
+                                    <div class="registration-menu"><div class="container signin">
+                                    <b class="input_text_space">Уже имеете аккаунт? <a href="#">Войдите</a>.</b>
+                                  </div>
+                                </div>
+                                </form>
+                            </div>
+                            <a href="" class="closeModalReg"></a>
+                            </div>
+                    </ul>
+                    <script type="text/javascript">
+                        function showHide(element_id,element_id2) {
+                            if (document.getElementById(element_id)) {
+                                var obg = document.getElementById(element_id2);
+                                var obj = document.getElementById(element_id); 
+                                if (obj.style.display != "block") { 
+                                    obj.style.display = "block";
+                                    obg.style.transform = "rotate(0deg)";
+                                    }
+                                else{
+                                    obj.style.display = "none";
+                                    obg.style.transform = "rotate(90deg)";
+                                }
+                            }
+                        } 
+                    </script>
+        </div>
+   </header>
+   <main>
+    <div class="block-space-two">
+        <div class="main-text"><h1 class="heading">Устройство и техническое обслуживание автомобиля</h1>
+        <div class="text-info"><p class="paragraph">Общее устройство легкового автомобиля.</p>
+        <p class="paragraph">Автомобиль состоит из: кузова, электрооборудования, дополнительного оборудования, механизмов управления, ходовой части, трансмиссии и двигателя.</p>
+        <p class="paragraph"><span class="highlighted_information">Двигатель</span> - это агрегат, в котором сгорает топливо и тепловая энергия преобразуется в механическую в виде крутящего момента. В рабочий цикл двигателя входят следующие такты: 1)впуск горючей смеси, 2) сжатие смеси, 3) рабочий ход, 4) выпуск отработавших газов.</p>
+        <p class="paragraph"><span class="highlighted_information">Кривошипно-шатунный механизм</span> (КШМ) преобразовывает движение вверх-вниз поршня в каждом цилиндре в крутящее движение колен вала двигателя. Состоит из: маховика, коленчатого вала, шатунов, поршней с кольцами и пальцами, блока цилиндров с картером, головки блока цилиндров и поддона картера двигателя.</p>
+        <p class="paragraph">Предназначен <span class="highlighted_information">газораспределительный механизм</span> (ГРМ) для впуска в цилиндры двигателя (своевременно) горючей смеси и выпуска отработавших газов. Состоит из: впускных и выпускных каналов, впускных и выпускных клапанов с пружинами, распределительного вала и рычагов.</p>
+        <p class="paragraph"><span class="highlighted_information">Система питания</span> служит очистки воздуха, для хранения, очистки и подачи топлива, приготовления и подачи горючей смеси в цилиндры двигателя. Количество и качество горючей смеси должно быть различным на различных режимах работы двигателя, и это тоже обеспечивает система питания. Состоит из: воздушного фильтра, топливного насоса, топливного бака, фильтров очистки топлива, топливопроводов и инжектора (карбюратора).</p>
+        <p class="paragraph"><span class="highlighted_information">Система выпуска отработавших газов</span> предназначена для уменьшения шума при выбросе отработавших газов в атмосферу и для отвода их от цилиндров двигателя. Состоит из: основного глушителя, дополнительного глушителя (резонатора), приемной трубы глушителя, выпускного канала, выпускного клапана и соединительных хомутов.</p>
+        <p class="paragraph"><span class="highlighted_information">Система зажигания</span> предназначена для создания тока высокого напряжения затем распределения его по свечам цилиндров. Импульс тока высокого напряжения на свечи подается в строго определенное время, которое изменяется в соответствии с частотой вращения коленчатого вала и нагрузки на двигатель.</p>
+        <p class="paragraph"><span class="highlighted_information">Контактная система зажигания</span> состоит из: включателя зажигания, проводов низкого и высокого напряжения, свечей зажигания, вакуумного и центробежного регуляторов опережения зажигания, распределителя тока высокого напряжения, прерывателя тока низкого напряжения и катушки зажигания.</p>
+        <p class="paragraph"><span class="highlighted_information">Система охлаждения</span> предназначена для регулирования теплового режима двигателя. Состоит из: радиатора с расширительным бачком, рубашки охлаждения блока и головки блока цилиндров, вентилятора, термостата, центробежного насоса и соединительных патрубков и шлангов.</p>
+        <p class="paragraph"><span class="highlighted_information">Система смазки</span> используется для подачи моторного масла к трущимся деталям двигателя, частичного охлаждения деталей и удаления продуктов износа (частиц металла). Система смазки включает в себя: поддон картера, масляный фильтр, масляный насос с маслоприемником, каналы для масла, которое подается под давлением, высверленных в блоке цилиндров, головку блока и в другие детали двигателя.</p>
+        <p class="paragraph-min"><span class="highlighted_information">Трансмиссия</span> предназначена для передачи к ведущим колесам автомобиля крутящего момента от двигателя. Трансмиссия</p>
+        <p class="paragraph-min">- переднеприводного автомобиля состоит из: валов привода передних колес, дифференциала, главной передачи, сцепления и коробки передач;</p>
+        <p class="paragraph">- заднеприводного автомобиля состоит из: полуосей, дифференциала, главной передачи, карданной передачи, сцепления и коробки передач.</p>
+        <p class="paragraph"><span class="highlighted_information">Ходовая часть</span> предназначена для перемещения транспортного средства по дороге с комфортом, а именно без вибрации и тряски. Ходовая часть состоит из: колес, передних и задних подвесок колес.</p>
+        <p class="paragraph-min"><span class="highlighted_information">Механизмы управления</span> служат для изменения направления движения (налево, направо), остановки или стоянки автомобиля. К ним относятся: рулевое управление и тормозная система.</p>
+        <p class="paragraph-min">- Рулевое управление служит для обеспечения движения в заданном водителем направлении. Состоит из: рулевого механизма и рулевого привода.</p>
+        <p class="paragraph">- Предназначена тормозная система для снижения скорости движения и остановки автомобиля (рабочая тормозная система). Стояночная тормозная система нужна и на стоянке и для предотвращения скатывания автомобиля назад при старте на подъеме.</p>
+        <p class="paragraph"><span class="highlighted_information">Электрооборудование</span> предназначено для питания электрическим током всех электрических приборов транспортного средства. Оно состоит из: потребителей тока и источников тока.</p>
+        <p class="paragraph"><span class="highlighted_information">Дополнительное оборудование</span> обеспечивает безопасные и комфортные условия для водителя и пассажиров. Перечень оборудования зависит от комплектации автомобиля. Примером могут служить обдув стекол, омыватель и очиститель лобового стекла, кондиционер, ГУР (гидроусилитель руля) и т.д.</p>
+        <p class="last-paragraph"><span class="highlighted_information">Кузов</span> – это несущий элемент транспортного средства, на котором закреплены, двигатель, механизмы управления, агрегаты трансмиссии, ходовой части, а также размещаются водитель, пассажиры и груз.</p></div>
+        </div>
+    </div>
+   </main>
+   <footer>
+        <div class="footer-space">
+            <div class="footer-block">
+                <div class="footer-part-block">
+                    <span class="footer-header-text">Наши контакты</span>
+                    <span class="footer-pic-block"><img src="img/location_icon.png" class="footer-pic">Йошкар-Ола, ул.Лягушечная, д.7</span>
+                    <span class="footer-pic-block"><img src="img/mail_icon.png" class="footer-pic">frogwheels.autoshool@bk.ru</span>
+                    <span class="footer-pic-block"><img src="img/phone_icon.png" class="footer-pic">8-8005-35-35-35</span>
+                </div>
+            </div>
+            <div class="footer-block">
+                <div class="footer-part-block2">
+                    <span class="footer-header-text">Мы в социальных сетях</span>
+                    <span class="footer-pics">
+                        <a href="https://vk.com/avtoshkola_frogwheels" class="pic-link-footer"><img src="img/vk_icon.png"></a>
+                        <a href="https://www.youtube.com/channel/UCedskVwIKiZJsO8XdJdLeg" class="pic-link-footer"><img src="img/youtube_icon.png"></a>
+                        <a href="" class="pic-link-footer"><img src="img/twitter_icon.png"></a>
+                        <a href=""><img src="img/instagram_icon.png"></a></span>
+                </div>
+            </div>
+            <div class="footer-block">
+                <div class="footer-part-block3">
+                    <span class="footer-header-text">Разработчики сайта</span>
+                    <span class="">frogsteam@mail.ru</span>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>

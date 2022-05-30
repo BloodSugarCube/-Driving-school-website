@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автошкола "Frogwheels"</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+   <header>
+       <div class="header-top">
+                    <div class="logo">
+                        <span class="logo-image"></span>
+                            <div class="text-logo">
+                                <div class="logo-name">frogwheels</div>
+                                <div class="tagline">Лучшее обучение вождению - у нас</div>
+                            </div>
+                    </div>
+        </div>
+        <div class="header-middle">
+                    <ul class="menu">
+                        <li><a href="./avtoshkola_frogwheels.html">Автошкола</a></li>
+                        <li><a href="./svedeniya.html">Сведения</a></li>
+                        <li><a href="./kollektiv.html">Коллектив</a></li>
+                        <li><a href="./trenazhery.html">Тренажеры</a></li>
+                        <li><a href="./avtomobili.html">Автомобили</a></li>
+                        <li><a href="./ploshchadka.html">Площадка</a></li>
+                        <li><a href="javascript:void(0)" onclick="showHide('menu-b','pic')"><span>Остальное</span><img src="img/arrow.svg" id="pic" class="image-arrow"></span></a>
+                        </li>
+                        <div id="menu-b" class="menu-bottom">
+                            <div class="block-extra-menu"><a class="part-ebm" href="./svedeniya_ob_obrazovatelnoy_organizatsii.html">Сведения об образов. организации</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./ustroystvo_avtomobilya.html">Устройство автомобиля</a>
+                            <a class="two-part-ebm" href="./dokumenty.html">Документы</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./otvetstvennost_voditelya.html">Ответственность водителя</a>
+                            <a class="two-part-ebm" href="./klassy.html">Классы</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./prava_na_kvadrotsikl.html">“Права“ на квадроцикл</a>
+                            <a class="two-part-ebm" href="./stoimost.html"><span class="underlined_information">Стоимость</span></a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./distantsionnoye_obucheniye.html">Дистанционное обучение</a>
+                            <a class="two-part-ebm" href="./otzyvy.html">Отзывы</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./pervaya_pomoshch_pri_dtp.html">Первая помощь при ДТП</a>
+                            <a class="two-part-ebm" href="./pdd.html">ПДД</a></div>
+                        </div>
+                        <div class="menu-registration-authorization"><a href="#openModalReg" class="ModalReg">Вход | Регистрация</a></div>
+                            <div id="openModalReg" class="modalDialogReg">
+                                <div id="" class="modalDialogRegExt">
+                                <form action="action_page.php">
+                                    <div class="container">
+                                    <div class="registration-menu">
+                                    <b class="input_text_h">Регистрация</b>
+                                    <b class="input_text_space">Заполните эту форму для регистрации.</b>
+                                    <b class="input_text">Электронная почта</b>
+                                    <input type="text" class="input-user" placeholder="Введите электронную почту" name="email" required>
+                                    <b class="input_text">Пароль</b>
+                                    <input type="password" class="input-user" placeholder="Введите пароль" name="psw" required>
+                                    <b class="input_text">Пароль ещё раз</b>
+                                    <input type="password" class="input-user" placeholder="Ещё раз введите пароль" name="psw-repeat" required>
+                                    <b class="input_text_space">При нажатии на кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a>.</b>
+                                    <button type="submit" class="registerbtn">Зарегистрироваться</button>
+                                    </div>
+                                    </div>
+                                    <div class="registration-menu"><div class="container signin">
+                                    <b class="input_text_space">Уже имеете аккаунт? <a href="#">Войдите</a>.</b>
+                                  </div>
+                                </div>
+                                </form>
+                            </div>
+                            <a href="" class="closeModalReg"></a>
+                            </div>
+                    </ul>
+                    <script type="text/javascript">
+                        function showHide(element_id,element_id2) {
+                            if (document.getElementById(element_id)) {
+                                var obg = document.getElementById(element_id2);
+                                var obj = document.getElementById(element_id); 
+                                if (obj.style.display != "block") { 
+                                    obj.style.display = "block";
+                                    obg.style.transform = "rotate(0deg)";
+                                    }
+                                else{
+                                    obj.style.display = "none";
+                                    obg.style.transform = "rotate(90deg)";
+                                }
+                            }
+                        } 
+                    </script>
+        </div>
+   </header>
+   <main>
+    <div class="block-space-two">
+        <div class="main-text"><h1 class="heading">Стоимость услуг</h1>
+        <div class="text-info"><p class="paragraph"><span class="highlighted_information">Услуга:</span>Обучение на категорию «В» с ГСМ (мкпп),<span class="highlighted_information">Продолжительность:</span>~2,5 месяца,<span class="highlighted_information">Стоимость:</span>21000 руб.</p>
+        <p class="paragraph"><span class="highlighted_information">Услуга:</span>Обучение на категорию «М»,<span class="highlighted_information">Продолжительность:</span>~1,5 месяца,<span class="highlighted_information">Стоимость:</span>9000 руб.</p>
+        <p class="paragraph"><span class="highlighted_information">Услуга:</span>Обучение на категорию «А1» (квадроциклы, снегоходы),<span class="highlighted_information">Продолжительность:</span>~1 месяца,<span class="highlighted_information">Стоимость:</span>9000 руб.</p>
+        <p class="paragraph"><span class="highlighted_information">Услуга:</span>Обучение на категорию «А2» (внедорожные автотранспортные средства) (квадроциклы, снегоходы),<span class="highlighted_information">Продолжительность:</span>~1 месяца,<span class="highlighted_information">Стоимость:</span>10000 руб.</p>
+        <p class="paragraph"><span class="highlighted_information">Услуга:</span>Повторный курс ПДД,<span class="highlighted_information">Продолжительность:</span>-,<span class="highlighted_information">Стоимость:</span>бесплатно.</p></div>
+        <h2 class="heading">Акции</h2>
+        <div class="text-info"><p class="last-paragraph">Приведи друга и получи 10% скидку(Можно получить обучение бесплатно, приведя 10 друзей)</p></div>
+        </div>
+    </div>
+   </main>
+   <footer>
+        <div class="footer-space">
+            <div class="footer-block">
+                <div class="footer-part-block">
+                    <span class="footer-header-text">Наши контакты</span>
+                    <span class="footer-pic-block"><img src="img/location_icon.png" class="footer-pic">Йошкар-Ола, ул.Лягушечная, д.7</span>
+                    <span class="footer-pic-block"><img src="img/mail_icon.png" class="footer-pic">frogwheels.autoshool@bk.ru</span>
+                    <span class="footer-pic-block"><img src="img/phone_icon.png" class="footer-pic">8-8005-35-35-35</span>
+                </div>
+            </div>
+            <div class="footer-block">
+                <div class="footer-part-block2">
+                    <span class="footer-header-text">Мы в социальных сетях</span>
+                    <span class="footer-pics">
+                        <a href="https://vk.com/avtoshkola_frogwheels" class="pic-link-footer"><img src="img/vk_icon.png"></a>
+                        <a href="https://www.youtube.com/channel/UCedskVwIKiZJsO8XdJdLeg" class="pic-link-footer"><img src="img/youtube_icon.png"></a>
+                        <a href="" class="pic-link-footer"><img src="img/twitter_icon.png"></a>
+                        <a href=""><img src="img/instagram_icon.png"></a></span>
+                </div>
+            </div>
+            <div class="footer-block">
+                <div class="footer-part-block3">
+                    <span class="footer-header-text">Разработчики сайта</span>
+                    <span class="">frogsteam@mail.ru</span>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>

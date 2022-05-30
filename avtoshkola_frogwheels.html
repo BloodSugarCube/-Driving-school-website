@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автошкола "Frogwheels"</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+   <header>
+       <div class="header-top">
+                    <div class="logo">
+                        <span class="logo-image"></span>
+                            <div class="text-logo">
+                                <div class="logo-name">frogwheels</div>
+                                <div class="tagline">Лучшее обучение вождению - у нас</div>
+                            </div>
+                    </div>
+        </div>
+        <div class="header-middle">
+                    <ul class="menu">
+                        <li><a href="./avtoshkola_frogwheels.html"><span class="underlined_information">Автошкола</span></a></li>
+                        <li><a href="./svedeniya.html">Сведения</a></li>
+                        <li><a href="./kollektiv.html">Коллектив</a></li>
+                        <li><a href="./trenazhery.html">Тренажеры</a></li>
+                        <li><a href="./avtomobili.html">Автомобили</a></li>
+                        <li><a href="./ploshchadka.html">Площадка</a></li>
+                        <li><a href="javascript:void(0)" onclick="showHide('menu-b','pic')"><span>Остальное</span><img src="img/arrow.svg" id="pic" class="image-arrow"></span></a>
+                        </li>
+                        <div id="menu-b" class="menu-bottom">
+                            <div class="block-extra-menu"><a class="part-ebm" href="./svedeniya_ob_obrazovatelnoy_organizatsii.html">Сведения об образов. организации</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./ustroystvo_avtomobilya.html">Устройство автомобиля</a>
+                            <a class="two-part-ebm" href="./dokumenty.html">Документы</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./otvetstvennost_voditelya.html">Ответственность водителя</a>
+                            <a class="two-part-ebm" href="./klassy.html">Классы</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./prava_na_kvadrotsikl.html">“Права“ на квадроцикл</a>
+                            <a class="two-part-ebm" href="./stoimost.html">Стоимость</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./distantsionnoye_obucheniye.html">Дистанционное обучение</a>
+                            <a class="two-part-ebm" href="./otzyvy.html">Отзывы</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./pervaya_pomoshch_pri_dtp.html">Первая помощь при ДТП</a>
+                            <a class="two-part-ebm" href="./pdd.html">ПДД</a></div>
+                        </div>
+                        <div class="menu-registration-authorization"><a href="#openModalReg" class="ModalReg">Вход | Регистрация</a></div>
+                            <div id="openModalReg" class="modalDialogReg">
+                                <div id="" class="modalDialogRegExt">
+                                    <form action="action_page.php">
+                                        <div class="container">
+                                        <div class="registration-menu">
+                                        <b class="input_text_h">Регистрация</b>
+                                        <b class="input_text_space">Заполните эту форму для регистрации.</b>
+                                        <b class="input_text">Электронная почта</b>
+                                        <input type="text" class="input-user" placeholder="Введите электронную почту" name="email" required>
+                                        <b class="input_text">Пароль</b>
+                                        <input type="password" class="input-user" placeholder="Введите пароль" name="psw" required>
+                                        <b class="input_text">Пароль ещё раз</b>
+                                        <input type="password" class="input-user" placeholder="Ещё раз введите пароль" name="psw-repeat" required>
+                                        <b class="input_text_space">При нажатии на кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a>.</b>
+                                        <button type="submit" class="registerbtn">Зарегистрироваться</button>
+                                        </div>
+                                        </div>
+                                        <div class="registration-menu"><div class="container signin">
+                                        <b class="input_text_space">Уже имеете аккаунт? <a href="#">Войдите</a>.</b>
+                                      </div>
+                                    </div>
+                                    </form>
+                                </div>
+                                <a href="" class="closeModalReg"></a>
+                            </div>
+                    </ul>
+                    <script type="text/javascript">
+                        function showHide(element_id,element_id2) {
+                            if (document.getElementById(element_id)) {
+                                var obg = document.getElementById(element_id2);
+                                var obj = document.getElementById(element_id); 
+                                if (obj.style.display != "block") { 
+                                    obj.style.display = "block";
+                                    obg.style.transform = "rotate(0deg)";
+                                    }
+                                else{
+                                    obj.style.display = "none";
+                                    obg.style.transform = "rotate(90deg)";
+                                }
+                            }
+                        } 
+                    </script>
+        </div>
+   </header>
+   <main>
+    <div class="block-space">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <div class="slide first">
+                    <div class="slide-info">
+                        <img src="img/frogs_in_car.png">
+                        <span class="text-info-slide">Самый ближайший набор на обучение в нашей автошколе:</span>
+                        <span class="text-info-slide">1 июля</span>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-info">
+                        <img src="img/running_frogs.png">
+                        <span class="text-info-slide">Приведи друзей и получи обучение бесплатно!</span>
+                        <span class="text-info-slide"><a href="/stoimost.html" class="link-extra-info">Подробнее</a></span>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-info">
+                        <img src="img/frog_at_laptop.png">
+                        <span class="text-info-slide">У нас есть возможность дистанционного обучения!</span>
+                        <span class="text-info-slide"><a href="/distantsionnoye_obucheniye.html" class="link-extra-info">Подробнее</a></span>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-info">
+                        <img src="img/frog_on_a_moped.png">
+                        <span class="text-info-slide">Помимо категории В, мы обучаем и другим категориям -  А1,А2,М</span>
+                        <span class="text-info-slide"><a href="/prava_na_ostalnyye_kategorii.html" class="link-extra-info"></a></span>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-info">
+                        <img src="img/frog_traffic_cop.png">
+                        <span class="text-info-slide">Это последний слайд - записывайся на обучение!</span>
+                        <span class="text-info-slide"><a href="#openModalSign-up" class="button-sign-up">Записаться</a></span>
+                    </div>
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+                <div class="switch-buttons">
+                    <a href="javascript:void(0)" onclick="counter_minus()"><img src="img/left_arrow_button.svg" class="left-image-arrow"></a>
+                    <a href="javascript:void(0)" onclick="counter_plus()"><img src="img/right_arrow_button.svg" class="right-image-arrow"></a>
+                </div>
+            </div>
+            <div id="openModalSign-up" class="modalDialogReg">
+                <div id="" class="modalDialogRegExt">
+                    <form action="action_page.php">
+                        <div class="container">
+                        <div class="registration-menu">
+                        <b class="input_text_h">Запись</b>
+                        <b class="input_text_space">Заполните эту форму для отправки данных</b>
+                        <b class="input_text">Ваше имя</b>
+                        <input type="text" class="input-user" placeholder="Введите ваше имя" name="name--sign-up" required>
+                        <b class="input_text">Номер телефона</b>
+                        <input type="tel" class="input-user" placeholder="Введите номер телефона" name="tel-sign-up" required>
+                        <b class="input_text">Электронная почта</b>
+                        <input type="email" class="input-user" placeholder="Введите почту" name="email-sign-up" required>
+                        <b class="input_text_space">При нажатии на кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a>.</b>
+                        <button type="submit" class="registerbtn">Отправить заявку</button>
+                        </div>
+                        </div>
+                    </div>
+                    </form>
+                <a href="" class="closeModalReg"></a>
+            </div>
+            <div class="navigation-manual">
+            <label for="radio1" href="javascript:void(0)" onclick="stop_autoslider()" class="manual-btn"></label>
+            <label for="radio2" href="javascript:void(0)" onclick="stop_autoslider()" class="manual-btn"></label>
+            <label for="radio3" href="javascript:void(0)" onclick="stop_autoslider()" class="manual-btn"></label>
+            <label for="radio4" href="javascript:void(0)" onclick="stop_autoslider()" class="manual-btn"></label>
+            <label for="radio5" href="javascript:void(0)" onclick="stop_autoslider()" class="manual-btn"></label>
+            </div>
+        </div>
+        <script type="text/javascript">
+        var counter = 1;
+        var autoslider_check = 1;
+        document.getElementById('radio' + counter).checked = true;
+        function stop_autoslider(){
+            autoslider_check = 0;
+        }
+        function counter_plus(){
+            autoslider_check = 0;
+            counter = 1;
+            while(document.getElementById('radio' + counter).checked == false){
+                counter += 1;
+            }
+            counter++;
+            if(counter == 6){
+                counter = 1;
+            }
+            document.getElementById('radio' + counter).checked = true;
+        }
+        function counter_minus(){
+            autoslider_check = 0;
+            counter = 1;
+            while(document.getElementById('radio' + counter).checked == false){
+                counter += 1;
+            }
+            counter--;
+            if(counter == 0){
+                counter = 5;
+        }
+        document.getElementById('radio' + counter).checked = true;
+        }
+        setInterval(function(){
+        if(autoslider_check != 0){
+        counter = 1;
+        while(document.getElementById('radio' + counter).checked == false){
+            counter += 1;
+        }
+        counter++;
+        if(counter > 5){
+        counter = 1;
+        }
+        document.getElementById('radio' + counter).checked = true;
+        }
+        }, 5000);
+        </script>
+    </div>
+    <div class="block-space-two">
+        <div class="main-text"><h1 class="heading">Автошкола «FROGWHEELS»</h1>
+        <div class="text-info"><p class="paragraph">В Автошколе «FROOGWHEELS» Вас приветливо встречают. Интерьер, радующий глаз. Уютные классы, удобные тренажеры, новые автомобили.</p>
+        <p class="paragraph">Курс обучения состоит из теории и практики. Высококвалифицированные преподаватели, доброжелательно, четко, доступно и интересно преподносят теоретические и практические знания.</p>
+        <p class="paragraph">Первоначальное практическое обучение Вы проходите на автомобильных (фрагмент "LADA") тренажерах и на тренажере развития, который улучшает важные для водителя качества (восемь методик) такие как, выдержка, скорость реакции, монотонно-устойчивость (устойчивость от засыпания за рулем), внимание, память на образы (быстро запоминаете знаки, схемы движения на дороге) и эмоциональный контроль. После занятий на тренажере развития Вы замечаете изменения и в повседневной жизни (стали выдержаннее, терпеливее, уравновешеннее, внимательнее).</p>
+        <p class="paragraph">Следующий этап в обучении - практика вождения на учебном автомобиле. Вождение автомобиля начинается от автошколы и находящаяся здесь фотостудия помогает Вам запечатлеть эти волнующие моменты на память. Учебные автомобили в «FROGWHEELS» предоставляются разные: и иномарки и отечественные, с автоматической и механической коробкой передач. Есть возможность и Вы выбираете. Мастера по вождению спокойные, уравновешенные, и с высшим (или незаконченным высшим) образованием и опытом работы до 20 лет. К каждому курсанту индивидуальный подход.</p>
+        <p class="paragraph">Режим работы позволяет Вам совмещать занятия в автошколе с работой или любой другой занятостью.</p>
+        <p class="paragraph">У "FROGWHEELS" своя просторная закрытая площадка для учебной езды, находящийся в 12-15 минутах езды от автошколы.</p>
+        <p class="paragraph">Здесь обучаются, как с целью научиться управлять автомобилем и получить удостоверение водителя, так и с целью восстановления утраченных навыков вождения. Как на автомобиле с механической КПП, так и на «автомате». Причем, утраченные теоретические знания тоже можно восстановить, пройдя повторный курс теории. Согласно правил внутреннего распорядка автошколы для тех, кто здесь отучился можно повторить теоретический курс многократно без дополнительной оплаты даже через несколько лет.</p>
+        <p class="paragraph">Место расположения автошколы удобное, в самом центре Йошкар-Олы, у остановки "Лягушная" (ранее "Жабная") по проспекту Болотина. Вы легко приезжаете из любого района города.</p>
+        <p class="last-paragraph">И вот, Вы принимаете решение учиться в этой автошколе. Приходите в "FROGWHEELS", заполняете заявление, оплачиваете первоначальный взнос три тысячи рублей <span class="highlighted_information">(комфортная система оплаты в рассрочку)</span>, узнаете когда первое занятие и увлекательный учебный процесс начинается.</p></div>
+        </div>
+    </div>
+   </main>
+   <footer>
+        <div class="footer-space">
+            <div class="footer-block">
+                <div class="footer-part-block">
+                    <span class="footer-header-text">Наши контакты</span>
+                    <span class="footer-pic-block"><img src="img/location_icon.png" class="footer-pic">Йошкар-Ола, ул.Лягушечная, д.7</span>
+                    <span class="footer-pic-block"><img src="img/mail_icon.png" class="footer-pic">frogwheels.autoshool@bk.ru</span>
+                    <span class="footer-pic-block"><img src="img/phone_icon.png" class="footer-pic">8-8005-35-35-35</span>
+                </div>
+            </div>
+            <div class="footer-block">
+                <div class="footer-part-block2">
+                    <span class="footer-header-text">Мы в социальных сетях</span>
+                    <span class="footer-pics">
+                        <a href="https://vk.com/avtoshkola_frogwheels" class="pic-link-footer"><img src="img/vk_icon.png"></a>
+                        <a href="https://www.youtube.com/channel/UCedskVwIKiZJsO8XdJdLeg" class="pic-link-footer"><img src="img/youtube_icon.png"></a>
+                        <a href="" class="pic-link-footer"><img src="img/twitter_icon.png"></a>
+                        <a href=""><img src="img/instagram_icon.png"></a></span>
+                </div>
+            </div>
+            <div class="footer-block">
+                <div class="footer-part-block3">
+                    <span class="footer-header-text">Разработчики сайта</span>
+                    <span class="">frogsteam@mail.ru</span>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>

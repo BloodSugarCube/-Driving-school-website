@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автошкола "Frogwheels"</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+   <header>
+       <div class="header-top">
+                    <div class="logo">
+                        <span class="logo-image"></span>
+                            <div class="text-logo">
+                                <div class="logo-name">frogwheels</div>
+                                <div class="tagline">Лучшее обучение вождению - у нас</div>
+                            </div>
+                    </div>
+        </div>
+        <div class="header-middle">
+                    <ul class="menu">
+                        <li><a href="./avtoshkola_frogwheels.html">Автошкола</a></li>
+                        <li><a href="./svedeniya.html">Сведения</a></li>
+                        <li><a href="./kollektiv.html">Коллектив</a></li>
+                        <li><a href="./trenazhery.html">Тренажеры</a></li>
+                        <li><a href="./avtomobili.html">Автомобили</a></li>
+                        <li><a href="./ploshchadka.html">Площадка</a></li>
+                        <li><a href="javascript:void(0)" onclick="showHide('menu-b','pic')"><span>Остальное</span><img src="img/arrow.svg" id="pic" class="image-arrow"></span></a>
+                        </li>
+                        <div id="menu-b" class="menu-bottom">
+                            <div class="block-extra-menu"><a class="part-ebm" href="./svedeniya_ob_obrazovatelnoy_organizatsii.html">Сведения об образов. организации</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./ustroystvo_avtomobilya.html">Устройство автомобиля</a>
+                            <a class="two-part-ebm" href="./dokumenty.html">Документы</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="../otvetstvennost_voditelya.html">Ответственность водителя</a>
+                            <a class="two-part-ebm" href="./klassy.html">Классы</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./prava_na_kvadrotsikl.html"><span class="underlined_information">“Права“ на квадроцикл</span></a>
+                            <a class="two-part-ebm" href="./stoimost.html">Стоимость</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./distantsionnoye_obucheniye.html">Дистанционное обучение</a>
+                            <a class="two-part-ebm" href="./otzyvy.html">Отзывы</a></div>
+                            <div class="block-extra-menu"><a class="one-part-ebm" href="./pervaya_pomoshch_pri_dtp.html">Первая помощь при ДТП</a>
+                            <a class="two-part-ebm" href="./pdd.html">ПДД</a></div>
+                        </div>
+                        <div class="menu-registration-authorization"><a href="#openModalReg" class="ModalReg">Вход | Регистрация</a></div>
+                            <div id="openModalReg" class="modalDialogReg">
+                                <div id="" class="modalDialogRegExt">
+                                <form action="action_page.php">
+                                    <div class="container">
+                                    <div class="registration-menu">
+                                    <b class="input_text_h">Регистрация</b>
+                                    <b class="input_text_space">Заполните эту форму для регистрации.</b>
+                                    <b class="input_text">Электронная почта</b>
+                                    <input type="text" class="input-user" placeholder="Введите электронную почту" name="email" required>
+                                    <b class="input_text">Пароль</b>
+                                    <input type="password" class="input-user" placeholder="Введите пароль" name="psw" required>
+                                    <b class="input_text">Пароль ещё раз</b>
+                                    <input type="password" class="input-user" placeholder="Ещё раз введите пароль" name="psw-repeat" required>
+                                    <b class="input_text_space">При нажатии на кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a>.</b>
+                                    <button type="submit" class="registerbtn">Зарегистрироваться</button>
+                                    </div>
+                                    </div>
+                                    <div class="registration-menu"><div class="container signin">
+                                    <b class="input_text_space">Уже имеете аккаунт? <a href="#">Войдите</a>.</b>
+                                  </div>
+                                </div>
+                                </form>
+                            </div>
+                            <a href="" class="closeModalReg"></a>
+                            </div>
+                    </ul>
+                    <script type="text/javascript">
+                        function showHide(element_id,element_id2) {
+                            if (document.getElementById(element_id)) {
+                                var obg = document.getElementById(element_id2);
+                                var obj = document.getElementById(element_id); 
+                                if (obj.style.display != "block") { 
+                                    obj.style.display = "block";
+                                    obg.style.transform = "rotate(0deg)";
+                                    }
+                                else{
+                                    obj.style.display = "none";
+                                    obg.style.transform = "rotate(90deg)";
+                                }
+                            }
+                        } 
+                    </script>
+        </div>
+   </header>
+   <main>
+    <div class="block-space-two">
+        <div class="main-text"><h1 class="heading">Как получить "права" на квадроцикл?</h1>
+        <h1 class="heading">Как получить "права" на снегоход?</h1>
+        <h1 class="heading">Как получить "права" на квадроцикл?</h1>
+        <div class="text-info"><p class="paragraph">Это удостоверение тракториста-машиниста категории «А1»</p>
+        <p class="paragraph">и можно его получить с 16 лет.</p>
+        <p class="paragraph">Для этого Вам необходимо:</p>
+        <p class="paragraph">-оформить медицинскую справку с допуском к управлению тракторами (самоходными машинами)</p>
+        <p class="paragraph">-пройти обучение и подготовиться к квалификационному экзамену по теории и по практике в «FROGWHEELS». Обучение – 3-4 недели.</p>
+        <p class="paragraph">Экзамен проводят сотрудники органов Гостехнадзора.</p>
+        <p class="paragraph">Теоретическая часть экзамена состоит из двух блоков:</p>
+        <p class="paragraph">По безопасной эксплуатации самоходных машин, включая задачи по первой медицинской помощи - 5 вопросов</p>
+        <p class="paragraph">По Правилам дорожного движения – 20 вопросов</p>
+        <p class="paragraph">Практическая часть экзамена состоит из трех заданий на площадке для учебной езды «FROGWHEELS»:</p>
+        <p class="paragraph">Пуск двигателя (нейтраль, ручник, проверка топлива, масла, охлаждающей жидкости, пуск двигателя)</p>
+        <p class="paragraph">Габаритный коридор, габаритный полукруг, разгон-торможение (остановиться у линии Стоп или не далее, чем за 0.5м). Затем ТС в предстартовую зону, нейтраль, ручник</p>
+        <p class="paragraph">Змейка ( указатель поворота, снять с ручника, посмотреть в зеркало заднего вида, объезд первого конуса справа, движение по траектории змейка, остановиться у линии Стоп или не далее, чем за 0.5м). Затем ТС в предстартовую зону, нейтраль, ручник</p>
+        <p class="paragraph">Все задания оцениваются: выполнил - не выполнил. Если экзаменуемый не выполнил только одно задание, его можно повторить.</p>
+        <p class="paragraph">В методике приема экзамена предусмотрена таблица ошибок (штрафных баллов). Допускается набрать 4 балла для положительного результата.</p>
+        <p class="paragraph">Ответственность водителей квадроциклов и снегоходов</p>
+        <p class="paragraph">Согласно действующим ПДД квадрОциклы и снегоходы относятся к механическим транспортным средствам. Это означает, что на основании пункта 2.1 ПДД их водители обязаны иметь при себе и передавать для проверки сотрудникам полиции (ГИБДД) предусмотренные законом документы. За отсутствие необходимых документов предусмотрен штраф.</p>
+        <p class="last-paragraph">Если транспортное средство не зарегистрировано в установленном порядке и водитель не может подтвердить право собственности на подобную технику, то она подлежит задержанию (помещению на штрафстоянку).</p></div>
+        </div>
+    </div>
+   </main>
+   <footer>
+        <div class="footer-space">
+            <div class="footer-block">
+                <div class="footer-part-block">
+                    <span class="footer-header-text">Наши контакты</span>
+                    <span class="footer-pic-block"><img src="img/location_icon.png" class="footer-pic">Йошкар-Ола, ул.Лягушечная, д.7</span>
+                    <span class="footer-pic-block"><img src="img/mail_icon.png" class="footer-pic">frogwheels.autoshool@bk.ru</span>
+                    <span class="footer-pic-block"><img src="img/phone_icon.png" class="footer-pic">8-8005-35-35-35</span>
+                </div>
+            </div>
+            <div class="footer-block">
+                <div class="footer-part-block2">
+                    <span class="footer-header-text">Мы в социальных сетях</span>
+                    <span class="footer-pics">
+                        <a href="https://vk.com/avtoshkola_frogwheels" class="pic-link-footer"><img src="img/vk_icon.png"></a>
+                        <a href="https://www.youtube.com/channel/UCedskVwIKiZJsO8XdJdLeg" class="pic-link-footer"><img src="img/youtube_icon.png"></a>
+                        <a href="" class="pic-link-footer"><img src="img/twitter_icon.png"></a>
+                        <a href=""><img src="img/instagram_icon.png"></a></span>
+                </div>
+            </div>
+            <div class="footer-block">
+                <div class="footer-part-block3">
+                    <span class="footer-header-text">Разработчики сайта</span>
+                    <span class="">frogsteam@mail.ru</span>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>
